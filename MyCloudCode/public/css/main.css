@@ -1,0 +1,57 @@
+
+/* Custom CSS */
+body { 
+	margin: 20px; 
+
+}
+
+h1 { color: white;  text-align: center; padding-bottom: 24px; }
+p { text-align: justify; }
+
+/* Navigation */
+
+
+/* Header */
+.heading-container { 
+	background-image: url("sand.jpeg"); 
+	background-color: #546DA3; 
+	background-repeat: inherit; 
+
+}
+.heading-container .free { color: rgb(153,63,63); }
+.heading-container .container h2 { text-align: center;  }
+
+
+
+/* Sections */
+div.section-containers {margin-top: 300px; }
+
+.section-containers h3 { text-align: center; }
+
+
+
+/* Modal */
+.modal-btn { text-align:center; padding-top: 40px; padding-bottom: 10px }
+
+
+/* Form */
+.contact-form { padding-top: 20px; padding-bottom: 10px; }
+
+
+/* Footer */
+footer { background-color: #637383; min-height: 150px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

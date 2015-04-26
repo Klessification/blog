@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SK | Developer Showcase</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- Site Navigation -->
+    <nav class="navbar navbar-default" id="navigation" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sk-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Welcome</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="sk-navbar-collapse-1">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#contact-form ">About</a></li>
+            <li><a href="#contact-form ">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="divider"></div>
+
+    <!-- Heading -->
+    <div class="heading-container jumbotron">
+        <div class="container">
+          <h2>Bootstrap Sandbox</h2>
+          <p>Welcome to my own live example site. A little place to practive and play with Bootstrap, Jquery, and Node.js to highlight a few fun and easy to use tools. Check out <a href="http://www.parse.com"><span>Parse</span></a> for more info on creating <span class="free">free</span> live websites without the need to configure pesky servers.</p>
+        </div>
+    </div>
+
+    <!-- Sections -->
+    <div class="container">
+      <div class="row">
+        <section class="section-containers col-sm-4">
+          <h3>Section 1</h3>
+          <p class="text-success">lacerat ponderum vim ei, eu aperiam ornatus perpetua nam, ei sea bonorum patrioque dissentiet. Hinc soluta invidunt ut sit, eam id esse unum. Assum placerat sapientem eu mei.</p>
+          <p class="text-danger">lacerat ponderum vim ei, eu aperiam ornatus perpetua nam, ei sea bonorum patrioque dissentiet. Hinc soluta invidunt ut sit, eam id esse unum. Assum placerat sapientem eu mei.</p>
+        </section>
+        <section class="section-containers col-sm-4">
+          <h3>Section 2</h3>
+          <p class="text-muted">lacerat ponderum vim ei, eu aperiam ornatus perpetua nam, ei sea bonorum patrioque dissentiet. Hinc soluta invidunt ut sit, eam id esse unum. Assum placerat sapientem eu mei.</p>
+          <p class="text-primary">lacerat ponderum vim ei, eu aperiam ornatus perpetua nam, ei sea bonorum patrioque dissentiet. Hinc soluta invidunt ut sit, eam id esse unum. Assum placerat sapientem eu mei.</p>
+        </section>
+        <section class="section-containers col-sm-4">
+          <h3>Section 3</h3>
+          <p class="text-info">lacerat ponderum vim ei, eu aperiam ornatus perpetua nam, ei sea bonorum patrioque dissentiet. Hinc soluta invidunt ut sit, eam id esse unum. Assum placerat sapientem eu mei.</p>
+          <p class="text-success">lacerat ponderum vim ei, eu aperiam ornatus perpetua nam, ei sea bonorum patrioque dissentiet. Hinc soluta invidunt ut sit, eam id esse unum. Assum placerat sapientem eu mei.</p>
+        </section>
+      </div>
+    </div>
+
+    <!-- Modal Window -->
+    <div class="modal-btn">
+      <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modal-window">Press Me!</button>
+    </div>
+
+    <div class="modal fade" id="modal-window" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Pizza Grande!</h4>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://player.vimeo.com/video/91580291" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/91580291">The Chef&#039;s Apprentice</a> from <a href="https://vimeo.com/skless">Steven Kless</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div id="contact-form" class="contact-form container">
+      <div class="">
+        <div class="row col-sm-7">
+          <form>
+            <h2>Contact Us!</h2>
+            <div class="form-group">
+              <label for="emailInput">Email Address</label>
+              <input type="text" class="form-control" name="Email" id="emailInput" placeholder="Type here..." ><br>
+              <button type="submit" class="btn btn-info btn-sm">Submit</button>
+              <a href="http://www.theinternet.com" class="btn btn-warning btn-sm">Leave</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <h4></h4>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

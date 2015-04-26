@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "webApp"
+        }, 
+        "webApp": {
+            "applicationId": "ip2LYzaRH4aOYFhMtmMKONlb46tVzVh4eI6irMDH", 
+            "masterKey": "SIg7kMzf9MCdKhtvp4qEEFIlrBDIcSMp6TANnDcl"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.4.2"
+    }
+}
